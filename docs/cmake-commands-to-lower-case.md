@@ -25,8 +25,7 @@ Usage
 -----
 
 ```
-cd /path/to/src
-cmake-commands-to-lower-case
+cmake-commands-to-lower-case /path/to/src
 ```
 
 

@@ -8,8 +8,7 @@
 #
 # Usage:
 #
-#  cd /path/to/src
-#  /path/to/cmake-commands-to-lower-case.sh
+#  /path/to/cmake-commands-to-lower-case.sh /path/to/src
 #
 # Adapted from the work of Brad King <brad.king@kitware.com>
 # and copied from https://github.com/Kitware/CMake/commit/77543bd
@@ -21,6 +20,5 @@ cmake --help-command-list |
     echo 's/\b'"$(echo $c | tr '[:lower:]' '[:upper:]')"'\(\s*\)(/'"$c"'\1(/g'
   done >convert.sed &&
   git ls-files -z -- '*.cmake' '*.cmake.in' '*CMakeLists.txt' |
-  egrep -z |
   xargs -0 sed -i -f convert.sed &&
   rm convert.sed
