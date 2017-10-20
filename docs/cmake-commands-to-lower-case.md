@@ -16,7 +16,7 @@ Install
 -------
 
 ```
-curl https://raw.githubusercontent.com/jcfr/cmake-auto-style/master/cmake-commands-to-lower-case.sh \
+curl -# https://raw.githubusercontent.com/jcfr/cmake-auto-style/master/cmake-commands-to-lower-case.sh \
   -o ~/bin/cmake-commands-to-lower-case && \
 chmod +x ~/bin/cmake-commands-to-lower-case
 ```
