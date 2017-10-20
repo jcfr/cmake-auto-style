@@ -4,7 +4,7 @@ CMake Auto Style
 Collection of scripts useful to update a CMake projects to match the recommended style.
 
 
-* [cmake-commands-to-lower-case.sh](./docs/cmake-commands-to-lower-case.md)
+* [cmake-commands-to-lower-case](./docs/cmake-commands-to-lower-case.md#cmake-commands-to-lower-case)
 
 
 Credits
