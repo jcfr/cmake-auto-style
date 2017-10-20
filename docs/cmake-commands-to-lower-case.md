@@ -45,6 +45,7 @@ is lower-case
 Credits
 -------
 
-Adapted from the work of `Brad King <brad.king@kitware.com>`
-and copied from https://github.com/Kitware/CMake/commit/77543bd
+Adapted from the work of `Brad King <brad.king@kitware.com>`.
+
+Copied from https://github.com/Kitware/CMake/commit/77543bd.
 
