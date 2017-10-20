@@ -2,14 +2,7 @@
 cmake-commands-to-lower-case
 ============================
 
-Convert CMake-language commands to lower case.
-
-
-Prerequisites
--------------
-
-* Bash
-* CMake
+Convert CMake-language commands to lower case
 
 
 Install
@@ -29,7 +22,7 @@ cmake-commands-to-lower-case /path/to/src
 ```
 
 
-Suggested commit message
+Suggested Commit Message
 ------------------------
 
 ```
@@ -44,7 +37,7 @@ is lower-case
 Credits
 -------
 
-Adapted from the work of `Brad King <brad.king@kitware.com>`.
+Adapted from the work of `Brad King <brad.king@kitware.com>`
 
-Copied from https://github.com/Kitware/CMake/commit/77543bd.
+Copied from https://github.com/Kitware/CMake/commit/77543bd
 

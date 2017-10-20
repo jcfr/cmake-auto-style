@@ -2,16 +2,9 @@
 
 #
 # Convert CMake-language commands to lower case
-#    
-# Ancient CMake versions required upper-case commands.  Later command
-# names became case-insensitive.  Now the preferred style is lower-case.
-#
-# Usage:
-#
-#  /path/to/cmake-commands-to-lower-case.sh /path/to/src
 #
 # Adapted from the work of Brad King <brad.king@kitware.com>
-# and copied from https://github.com/Kitware/CMake/commit/77543bd
+# Copied from https://github.com/Kitware/CMake/commit/77543bd
 #
 
 cmake --help-command-list |

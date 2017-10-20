@@ -7,6 +7,15 @@ Collection of scripts useful to update a CMake projects to match the recommended
 * [cmake-commands-to-lower-case](./docs/cmake-commands-to-lower-case.md#cmake-commands-to-lower-case)
 
 
+Prerequisites
+-------------
+
+*Apply to all scripts*
+
+* Bash
+* CMake
+
+
 Credits
 -------
 
