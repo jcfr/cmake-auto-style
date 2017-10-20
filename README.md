@@ -5,6 +5,7 @@ Collection of scripts useful to update a CMake projects to match the recommended
 
 
 * [cmake-commands-to-lower-case](./docs/cmake-commands-to-lower-case.md#cmake-commands-to-lower-case)
+* [cmake-commands-remove-block-end-arguments](./docs/cmake-commands-remove-block-end-arguments.md#cmake-commands-remove-block-end-arguments)
 
 
 Prerequisites
