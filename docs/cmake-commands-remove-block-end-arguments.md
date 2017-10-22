@@ -25,7 +25,7 @@ Suggested Commit Message
 ------------------------
 
 ```
-cmake: Remove CMake-language block-end command arguments
+STYLE: Remove CMake-language block-end command arguments
 
 Ancient versions of CMake required else(), endif(), and similar block
 termination commands to have arguments matching the command starting the

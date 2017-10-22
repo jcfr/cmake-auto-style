@@ -26,7 +26,7 @@ Suggested Commit Message
 ------------------------
 
 ```
-cmake: Convert CMake-language commands to lower case
+STYLE: Convert CMake-language commands to lower case
     
 Ancient CMake versions required upper-case commands. Later
 command names became case-insensitive. Now the preferred style
