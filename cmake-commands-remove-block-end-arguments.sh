@@ -14,3 +14,16 @@ for c in else endif endforeach endfunction endmacro endwhile; do
     #egrep -z -v '^(Utilities/cm|Source/kwsys/)' |
     xargs -0 sed -i -f convert.sed &&
     rm convert.sed
+
+cat << EOF
+
+Suggested Commit Message:
+
+------------------------------------------------------------------------
+cmake: Remove CMake-language block-end command arguments
+
+Ancient versions of CMake required else(), endif(), and similar block
+termination commands to have arguments matching the command starting the
+block. This is no longer the preferred style.
+------------------------------------------------------------------------
+EOF

@@ -15,3 +15,16 @@ cmake --help-command-list |
   git ls-files -z -- '*.cmake' '*.cmake.in' '*CMakeLists.txt' |
   xargs -0 sed -i -f convert.sed &&
   rm convert.sed
+
+cat << EOF
+
+Suggested Commit Message:
+
+---------------------------------------------------------------
+cmake: Convert CMake-language commands to lower case
+
+Ancient CMake versions required upper-case commands. Later
+command names became case-insensitive. Now the preferred style
+is lower-case
+---------------------------------------------------------------
+EOF
